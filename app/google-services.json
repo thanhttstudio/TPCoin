@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "798101811017",
+    "firebase_url": "https://tpcoinnew.firebaseio.com",
+    "project_id": "tpcoinnew",
+    "storage_bucket": "tpcoinnew.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:798101811017:android:1f6bcf016520d2a1",
+        "android_client_info": {
+          "package_name": "com.tpcoinnew"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "798101811017-04sl3efti9n99pi5hdlkkack0dvh6bsh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tpcoinnew",
+            "certificate_hash": "575102ee19f4552b7401f5787c7ce33be20813bc"
+          }
+        },
+        {
+          "client_id": "798101811017-ppvqtb1ol9l7ed9cf2s2jjboueoomeip.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "798101811017-ppvqtb1ol9l7ed9cf2s2jjboueoomeip.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFLWVoGd3P35cO9i0KHGIMi5ZsYqX_L1w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "798101811017-ppvqtb1ol9l7ed9cf2s2jjboueoomeip.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

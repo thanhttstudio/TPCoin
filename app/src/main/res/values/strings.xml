@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">TPCoin</string>
+    <string name="facebook_app_id">263070674431397</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="get_coin">Get coin</string>
+    <string name="bonus">Bonus</string>
+    <string name="reward">Reward</string>
+    <string name="history">History</string>
+    <string name="more">More</string>
+
 </resources>

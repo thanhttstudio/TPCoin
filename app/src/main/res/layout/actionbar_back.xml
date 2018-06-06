@@ -1,31 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="@dimen/_38dp">
+    android:layout_height="@dimen/_56dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/shape_gradient_orient"
+    android:gravity="center_vertical">
 
     <ImageView
         android:id="@+id/actionbar_imgBack"
-        android:layout_width="@dimen/_50dp"
-        android:layout_height="match_parent"
-        android:paddingStart="@dimen/_12dp"
-        android:paddingEnd="@dimen/_16dp"
-        android:background="?attr/selectableItemBackgroundBorderless"
-        android:clickable="true"
-        android:focusable="true"
+        android:layout_width="@dimen/_48dp"
+        android:layout_height="@dimen/_48dp"
         android:layout_gravity="start|center_vertical"
-        android:src="@drawable/ic_launcher_background"/>
+        android:paddingBottom="@dimen/_8dp"
+        android:paddingEnd="@dimen/_5dp"
+        android:paddingStart="@dimen/_5dp"
+        android:paddingTop="@dimen/_8dp"
+        android:src="@drawable/ic_arrow_left" />
 
     <TextView
         android:id="@+id/actionbar_tvTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ellipsize="end"
-        android:lines="1"
-        android:gravity="center"
         android:layout_gravity="center_vertical"
-        android:paddingLeft="@dimen/_32dp"
-        android:paddingRight="@dimen/_32dp"
-        android:textColor="@android:color/white"
+        android:layout_marginEnd="@dimen/_40dp"
+        android:layout_marginStart="@dimen/_40dp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:lines="1"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
         android:textSize="16sp" />
 
+    <ImageView
+        android:id="@+id/actionbar_imgFilter"
+        android:layout_width="@dimen/_48dp"
+        android:layout_height="@dimen/_48dp"
+        android:layout_gravity="end|center_vertical"
+        android:paddingBottom="@dimen/_10dp"
+        android:paddingEnd="@dimen/_5dp"
+        android:paddingStart="@dimen/_5dp"
+        android:paddingTop="@dimen/_10dp"
+        android:visibility="gone" />
 </FrameLayout>

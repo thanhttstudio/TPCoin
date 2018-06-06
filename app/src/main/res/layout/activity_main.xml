@@ -1,21 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v4.app.FragmentTabHost xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@android:id/tabhost"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:focusable="true"
-    android:focusableInTouchMode="true"
-    tools:context=".activities.MainActivity">
+    android:layout_height="match_parent">
 
-    <FrameLayout
-        android:id="@+id/frmContainer"
+    <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:fitsSystemWindows="false"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_height="match_parent">
 
-</android.support.constraint.ConstraintLayout>
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toTopOf="@android:id/tabs"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:showDividers="none"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.v4.app.FragmentTabHost>
